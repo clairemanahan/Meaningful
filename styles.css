@@ -1,0 +1,76 @@
+html, body {
+    width:100%;
+    margin:0;
+    overflow:hidden;
+}
+@font-face {
+    font-family: Gothic;
+    src: url(WatGoth1.ttf);
+}
+@font-face {
+    font-family: JMH;
+    src: url(JMH.ttf);
+}
+
+#dirt {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image: url('dirt.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}
+#skeleton {
+    position:absolute;
+    width:400px;
+    height:100px;
+    top: 85vh;
+    left: 50%;
+    background-image: url('skeleton.png');
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    overflow: hidden;
+    opacity: 100;
+}
+#directionsBox {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 248, 218);
+    border: 2px solid rgb(35, 24, 13);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    opacity: 1;
+    pointer-events: none;
+}
+#directions1 {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    font-style:italic;
+    font-size: 22px;
+    font-family: Gothic;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    opacity: 1;
+    pointer-events: none;
+}
+#directions2 {
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    font-size: 8px;
+    font-family: JMH;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    opacity: 1;
+    pointer-events: none;
+}
