@@ -28,7 +28,7 @@ html, body {
     height:100px;
     top: 85vh;
     left: 50%;
-    background-image: url('skeleton.png');
+    background-image: url('Skeleton.png');
     background-size: cover;
     background-position: center;
     transform: translate(-50%, -50%);
